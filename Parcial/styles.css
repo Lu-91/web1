@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+/* Estilos globales */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    background-color: #ADF27C;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo img {
+    width: 80px;
+    vertical-align: middle;
+}
+
+.logo h1 {
+    display: inline-block;
+    margin: 0;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+/* Banner */
+.banner {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    width: 80%;
+    padding: 20px;
+}
+
+.banner-text p {
+    font-size: 1.2em;
+}
+
+/* Servicios */
+.services {
+    padding: 40px;
+    background-color: #D4FFB5;
+    text-align: center;
+    margin-top: 0;
+}
+
+.services h2 {
+    margin-bottom: 20px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.service img {
+    width: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1px;
+    transition: transform 0.3s ease
+}
+
+.service:hover img {
+    transform: scale(1.1);
+}
+
+/* Sobre nosotros */
+.about-us {
+    padding: 60px 20px;
+    background-color: #EFFFE3;
+}
+
+.about-us h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-us .content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.image-left {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.image-left img {
+    width: 100%;
+    max-width: 400px;
+    margin-right: 20px;
+}
+
+.text-right {
+    max-width: 600px;
+}
+
+.text-left {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.text-left .text {
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+.image-right {
+    width: 100%;
+    max-width: 400px;
+}
+
+
+/* Reseñas */
+.testimonials {
+    padding: 40px;
+    background-color: #D4FFB5;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.testimonial {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-color: #EFFFE3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+
+.testimonial p {
+    font-size: 1em;
+    margin: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #438C0F;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-media img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.social-media img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
