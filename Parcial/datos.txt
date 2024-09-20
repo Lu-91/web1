@@ -4,4 +4,4 @@ Comisión: 1°A
 Turno: Noche
 Año: 2024
 
-URL: 
+URL: https://lu-91.github.io/web1/Parcial/
